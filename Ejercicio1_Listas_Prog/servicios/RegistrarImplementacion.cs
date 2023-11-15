@@ -45,6 +45,8 @@ namespace Ejercicio1_Listas_Prog.servicios
 
             //Guardo el cliente en la lista
             listaAntigua.Add(cliente);
+
+            Console.WriteLine(cliente.ToString());
         }
     }
 }
